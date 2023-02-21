@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: utils
+Version: 0.0.1
+Summary: Modulo de Utilidades
+Home-page: https://github.com/JuanFeA98/Utils_py
+Author: JuanFe98
+Author-email: jmartinezbernal02@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
+# Utils
+
+pip install wheel
+
+python setup.py sdist
+python setup.py bdist_wheel
+
+pip install git+https://github.com/JuanFeA98/mypacke.git
+
+from utils import consultas

@@ -2,10 +2,10 @@ from setuptools import setup, find_packages
 
 if __name__ == '__main__':
     setup(
-        name='my_package',
+        name='utils',
         description='Modulo de Utilidades',
         license='MIT',
-        url='https://github.com/JuanFeA98/mypacke',
+        url='https://github.com/JuanFeA98/Utils_py',
         version='0.0.1',
         author='JuanFe98',
         author_email='jmartinezbernal02@gmail.com',

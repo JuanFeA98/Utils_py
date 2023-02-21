@@ -13,6 +13,9 @@ class Consultas:
     def __init__(self, query: str) -> None:
         self.query = query
 
+    def my_query(self):
+        return self.query
+
     def consulta(self):
         df = pd.read_sql(self.query, con=conn)
-        return(df)
+        return df
